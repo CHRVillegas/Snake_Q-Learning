@@ -35,7 +35,6 @@ class SnakeGame:
         start = time.time()
 
         #   This loop will train for required number of times
-        #   WRITE YOUR CODE IN THIS LOOP TO CALL THE TRAINING FUNCTION.
         #   AS TRAINING IS HAPPENING THE CODE IN THE LOOP WILL PRINT STATISTICS.
         #   Use self.env.reset() to reset your game after each iteration.
         for game in range(1, self.args.NUM_TRAIN_ITER + 1):
