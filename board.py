@@ -109,7 +109,7 @@ class BoardEnv:
     #   also keeps track of time since beginning of the game
     def display(self):
         pygame.init()
-        pygame.display.set_caption('CSE 140 Summer 21 Assignment 5')
+        pygame.display.set_caption('Q-Learning Snake')
         self.clock = pygame.time.Clock()
         pygame.font.init()
         self.font = pygame.font.Font(pygame.font.get_default_font(), 15)
