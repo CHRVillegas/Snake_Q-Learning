@@ -14,9 +14,7 @@ class BoardEnv:
     #   The show variable is used to keep track of when we should draw it on screen or not
     def __init__(self, snake_head_x, snake_head_y, food_x, food_y):
         self.game = Snake(snake_head_x, snake_head_y, food_x, food_y)
-        self.show = False
-
-    #   All comments starting with a "*" are just calling functions in the Snake class which do the smae.    
+        self.show = False 
 
     #   *Returns all possible actions the snake can make
     def get_actions(self):
