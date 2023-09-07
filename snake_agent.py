@@ -132,9 +132,8 @@ class SnakeAgent:
         else:
             return -0.1
 
-    #   This is the reinforcement learning agent
-    #   use the helper_func you need to write above to
-    #   decide which move is the best move that the snake needs to make 
+    #   This is the reinforcement learning agent.
+    #   it decide which move is the best move that the snake needs to make 
     #   using the compute reward function defined above. 
     #   This function also keeps track of the fact that we are in 
     #   training state or testing state so that it can decide if it needs
